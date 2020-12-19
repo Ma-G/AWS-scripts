@@ -39,17 +39,3 @@ definitions=queries["queryDefinitions"]
 for i in definitions:
     res = put_queries_into_another_region(new_config(copy_to_region), i)
     print("\n", res, "\n")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
